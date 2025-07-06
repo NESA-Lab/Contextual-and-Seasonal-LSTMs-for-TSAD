@@ -1,0 +1,4 @@
+python train.py --data_dir ./data/Yahoo  --window 240 --input_dim 48 --cycle 48 --stride 4 --step 2  --save_file ./result.txt  --learning_rate 0.0005 --gpu 0
+python train.py --data_dir ./data/WSD  --window 147  --input_dim 24 --cycle 24 --stride 4 --step 2  --save_file ./result.txt  --learning_rate 0.001 --gpu 1
+python train.py --data_dir ./data/AIOPS  --window 640  --input_dim 128 --cycle 128 --stride 8 --step 4 --save_file ./result.txt  --learning_rate 0.001 --gpu 2
+python train.py --data_dir ./data/NAB --window 768  --input_dim 128 --cycle 128 --stride 48 --step 12 --save_file ./result.txt  --learning_rate 0.0005 --gpu 3

@@ -1,0 +1,5 @@
+/ckpt/*
+/logs/*
+/npy/*
+/.vscode/
+/git.sh
