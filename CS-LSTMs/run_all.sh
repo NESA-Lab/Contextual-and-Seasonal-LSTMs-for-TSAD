@@ -1,0 +1,4 @@
+python train.py --data_name Yahoo --data_dir ./data/Yahoo  --window 240 --seasonal_window 48 --cycle 48 --contextual_window 4 --step 2  --save_file ./result.txt  --learning_rate 0.0005 --gpu 0
+python train.py --data_name WSD --data_dir ./data/WSD  --window 147  --seasonal_window 24 --cycle 24 --contextual_window 4 --step 2  --save_file ./result.txt  --learning_rate 0.001 --gpu 1
+python train.py --data_name AIOPS --data_dir ./data/AIOPS  --window 768  --seasonal_window 128 --cycle 128 --contextual_window 24 --step 12 --save_file ./result.txt  --learning_rate 0.001 --gpu 2
+python train.py --data_name NAB --data_dir ./data/NAB --window 768  --seasonal_window 128 --cycle 128 --contextual_window 24 --step 12 --save_file ./result.txt  --learning_rate 0.0005 --gpu 3

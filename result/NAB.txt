@@ -1,4 +1,0 @@
-Auc 0.582956 
-best f1 score 0.974495 0.950258 1.000000 
-Delay f1 score  0.902410 0.895018 0.909925
-Best f1 without pointadjust 0.178449 0.140700 0.243882
